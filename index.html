@@ -6,21 +6,37 @@
     <title>Jiabao's Portfolio</title>
     <link rel="stylesheet" href="./page/index.css" />
   </head>
-  <body>
-    <div class="header">
-      <div class="header__title">
-        <p class="header__welcome">Welcome.</p>
-        <p class="header__description">
-          My name is Jiabao (Tonny) Wu, a Boston-based full-stack developer
-          specializing in the MERN stack. With a background in project
-          management, I excel in collaborating within agile teams to build
-          seamless and efficient web applications. I’m passionate about
-          continuous learning and staying at the forefront of technology.
-        </p>
-      </div>
+  <body class="page">
+    <div class="page__content">
+      <section class="header">
+        <div class="header__title">
+          <p class="header__welcome">Welcome.</p>
+          <p class="header__description">
+            My name is Jiabao Wu, a Boston-based full-stack developer
+            specializing in the MERN stack. With a background in project
+            management, I excel in collaborating within agile teams to build
+            seamless and efficient web applications. I’m passionate about
+            continuous learning and staying at the forefront of technology.
+          </p>
+        </div>
+      </section>
+      <section class="main">
+        <div class="main__caption">
+          <p class="main__title">My Work</p>
+          <p class="main__subtitle">A collection of projects I've worked on.</p>
+        </div>
+      </section>
+      <section class="cards">
+        <ul class="cards list"></ul>
+      </section>
+      <section class="footer">
+        <p class="footer__caption">@2024 wujiabaotonny@gmail.com</p>
+      </section>
     </div>
-    <div class="main"></div>
-    <div class="footer"></div>
+    <!-- --------------------------- Open Card Modal --------------------------- -->
+
+    <div class="modal__preview">
+      <div class="modal__container"></div>
+    </div>
   </body>
 </html>
-·
