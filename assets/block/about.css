@@ -1,0 +1,17 @@
+.about {
+  background-color: var(--container-color);
+}
+
+.about__container {
+  grid-template-columns: 5fr 7fr;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.about__img {
+  border-radius: var(--radius);
+}
+
+.about__description {
+  margin-bottom: 2rem;
+}
