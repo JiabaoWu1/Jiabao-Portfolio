@@ -35,6 +35,10 @@
   display: block;
 }
 
+.tabs__title {
+  color: aqua;
+}
+
 /* Active tab */
 .tabs__btn.tab__active {
   color: var(--first-color);

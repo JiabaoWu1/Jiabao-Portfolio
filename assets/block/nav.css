@@ -2,6 +2,7 @@
 .nav__list,
 .nav__socials {
   display: flex;
+  gap: 1rem;
 }
 
 .nav {
@@ -30,6 +31,13 @@
   font-size: var(--small-font-size);
   color: var(--title-color);
   transition: all 0.3s var(--transition);
+
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__link {
@@ -42,8 +50,7 @@
 }
 
 .nav__social-link:hover {
-  color: var(--first-color);
-  transform: translateY(-0.25rem);
+  transform: translateY(-0.25rem) scale(2);
 }
 
 .nav__link-btn {
